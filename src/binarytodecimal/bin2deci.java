@@ -14,7 +14,7 @@ public class bin2deci {
 		while(ip>0) // to enter into the loop just check if ip we enerd is greater than 0
 		{
 			rem=ip%10; //% gives only the reminder
-			result=rem*Math.pow(2,i)+result;
+			result=(int)(rem*Math.pow(2,i))+result;
 			ip=ip/10; // retains the quotient
 			i=i+1; //increment i values from 0 in pow func
 			
