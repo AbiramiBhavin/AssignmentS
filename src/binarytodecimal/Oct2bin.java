@@ -3,6 +3,10 @@ package binarytodecimal;
 import java.util.Scanner;
 
 public class Oct2bin {
+	//PROGRAM TO PRINT OCTAL TO BINARY
+	//first we need to convert octal to decimal
+	// we need to convert to decimal to binary
+	// thereby converting octal to binary
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
@@ -15,7 +19,7 @@ public class Oct2bin {
 		int result=0,result1=0;
 		while(ip>0)
 		{
-			rem=ip%10;
+			rem=ip%10; // converting to decimal so 10
 			result=result+(int)(rem*Math.pow(8,i));
 			ip=ip/10;
 			i=i+1;
